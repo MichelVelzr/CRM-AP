@@ -1,0 +1,47 @@
+
+       /* Estilo para el cuerpo de la página */
+        body {
+            margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+            padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+            display: flex;
+            justify-content: flex-end; /* Alinea todo al final del eje horizontal */
+            align-items: flex-start; /* Alinea todo al inicio del eje vertical */
+            height: 100vh; /* Hace que la altura ocupe el 100% del viewport */
+        }
+
+        /* Estilo para el contenedor principal */
+        #container {
+            display: flex;
+            flex-direction: column; /* Organiza los elementos en columna */
+            align-items: flex-end; /* Alinea los elementos al final del eje vertical */
+            padding: 10px; /* Agrega un relleno alrededor del contenedor principal */
+        }
+
+        /* Estilo para el input de texto */
+        #input-sof {
+            margin-bottom: 15px; /* Agrega espacio debajo del input */
+            padding: 5px;
+            font-size: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);   
+            border: 1px solid ;
+            border-radius: 15px;
+        }
+
+        /* Estilo para el marcador telefónico */
+        #softphone {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            text-align: center;
+            padding: 0 22px;
+        }
+
+        /* Estilo para los botones del marcador telefónico */
+        .num {
+            border: 1px solid #333;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+        }

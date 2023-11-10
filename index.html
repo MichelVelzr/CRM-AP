@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        table, th, td {
-            border: 1px solid black
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRM-DEVELZ</title>
+    <link rel="stylesheet" href="index.css" >
 </head>
 <body>
-    <table style="width: 500px;">
-        <thead>
-        <tr>
+    <table id="tabla1" style="width: 500px;">
+        <thead id="thead-table1">
+        <tr class="trow1">
             <th>producto</th>
             <th>precio</th>
             <th>hora</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
+        <tr class="trow1" >
             <td>hoja</td>
             <td>50so</td>
             <td>12:30</td>
@@ -51,7 +47,7 @@
             </ol>
         </li>
     </ol>
-    <h1>heading</h1>
+    <h1 id="titulo">heading</h1>
     <form action="/formulario" method="post">
         <label for="nombre">nombre</label>
         <input value="michel" type="text" id="nombre" name="nombre" placeholder="texto recomendado"/>

@@ -1,0 +1,158 @@
+#title {
+    border:  5px blue dotted;
+}
+
+p.parra1 {
+    color: green;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: blue;
+
+}
+
+p.parra2 {
+    color: palevioletred;
+}
+
+p.parra3 {
+    color: burlywood;
+}
+
+div p {
+    color: red;
+}
+div h2, div h3 {
+    color: yellowgreen;
+}
+
+* {
+    font-size: 24px;
+    font-family: sans-serif;
+    /* color: black; */
+}
+
+#fondo {
+    background-color: rgba(222, 184, 135);
+    /* opacity: 0.3; */
+    height: 200px;
+    background: firebrick url('PASOS-AP.png') repeat-x center bottom /100px 100px;
+    margin: 25px;
+}
+
+.margen {
+    background: red ;
+    margin: 30px 20px 50px 30px;
+    padding: 30px 25px 30px 25px;
+    border: solid 2px black;
+    height: 200px;
+    width: 100px;
+    overflow: scroll;
+    outline: 1px solid red;
+
+}
+
+.text {
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* color link */
+ a:link {  /*pseudo-clases */
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+/* mouse por encima */
+a:hover {
+    color: blueviolet;
+}
+/* link presionado */
+a:active {
+    color: yellow;
+}
+
+ul {
+    background-color: beige;
+    list-style-type: none;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th, td{
+    border: solid 1px #e22;
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: blueviolet;
+}
+
+tr:hover{
+    color: blue;
+    background-color: #e22;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    width: 300px;
+    background-color: #e22;
+}
+.inline{
+    display: inline;
+}
+
+#posicion {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left {
+    float: left;
+    width: 100px;
+}
+
+.right {
+    float: right;
+    width: 100px;
+}
+
+.contain {
+    height: 200px;
+}
+
+.colum {
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: #e22;
+    padding: 10px 0;
+    width: 33%;
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 11px auto;
+    background-color: #e22;
+}
+
+/* no tocar *\
